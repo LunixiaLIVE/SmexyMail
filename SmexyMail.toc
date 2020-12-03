@@ -1,0 +1,15 @@
+## Interface: 90002
+## Title: |cFF00CCFFSmexyMail|r by: |cFFFF8000LunixiaLIVE|r v9.0.2 Retail
+## Notes: Mail addon, make sets of items you want sent to other toons.
+## Version: 9.0.2 Retail
+## SavedVariables: SmexyMailDB
+## Author: Battle.net & Discord: Lunixia#1737
+
+SmexyEmbeds.xml
+SmexyLocales.xml
+
+SmexyMailCore.lua
+
+##SmexyMailLoadDB.xml
+##Data\Options\Options.lua
+##Data\Options\Defaults.lua
