@@ -10,6 +10,6 @@ SmexyLocales.xml
 
 SmexyMailCore.lua
 
-##SmexyMailLoadDB.xml
-##Data\Options\Options.lua
-##Data\Options\Defaults.lua
+Utilities\Utilities.lua
+Data\Options\Options.lua
+Data\Options\Defaults.lua

@@ -4,9 +4,19 @@ local AceConfig = LibStub("AceConfigDialog-3.0");
 local name = "SmexyMail";
 local version = "v9.0.2";
 
-if SmexyMailDB == nil then 
+if not SmexyMailDB then 
 	SmexyMailDB = {}; 
 end;
+
+function SmexyMail:OnInitialize()
+	if not SmexyMailDB.profile then 
+		SmexyMailDB.profile = SmexyMail.defaults.profile; 
+	end;
+	LibStub("AceConfig-3.0"):RegisterOptionsTable("SmexyMail", SmexyMail.options);
+	AceConfig:AddToBlizOptions("SmexyMail", "SmexyMail");
+end;
+
+
 
 function SmexyMailUpdate()
 	print("Make Buttons")
