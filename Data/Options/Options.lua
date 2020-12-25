@@ -36,7 +36,8 @@ SmexyMail.options = {
 			name = "Character-Realm",
 			desc = "Type the name of the character-realm you want to configure mail for.",
 			set = function(info, v)
-				if not SmexyMailDB["Characters"][v] then
+				if SmexyMailDB["Characters"]['"'..v..'"'] == nil then
+					print(v);
 					table.insert(SmexyMailDB["Characters"],v);
 				else
 					print(v .. " already exists in the table.")
