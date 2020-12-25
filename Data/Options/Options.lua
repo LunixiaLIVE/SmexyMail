@@ -39,7 +39,7 @@ SmexyMail.options = {
 				if not SmexyMailDB["Characters"][v] then
 					table.insert(SmexyMailDB["Characters"],v);
 				else
-					print(v.." already exists in the table.")
+					print(v .. " already exists in the table.")
 				end;
 				--SmexyMail.options.args.CharacterSelect.Values = SmexyMailDB.Characters;
 			end,
