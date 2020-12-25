@@ -60,8 +60,8 @@ SmexyMail.Profs = {
 	[4]   	= L["Cook"],
 	[5]   	= L["Enchanter"],
 	[6]   	= L["Engineer"],
-	[7]  	= L["Scribe"],
-	[8]  	= L["Jeweler"],
+	[7]  	= L["Inscriptionist"],
+	[8]  	= L["Jewelcrafter"],
 	[9]  	= L["Leatherworker"],
 	[10]  	= L["Tailor"],
 };
