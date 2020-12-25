@@ -26,10 +26,6 @@ function SmexyMail:OnInitialize()
 	AceConfig:AddToBlizOptions("SmexyMail", "SmexyMail");
 end;
 
-local function NewPosition(pos)
-	return pos - 32;
-end;
-
 function SmexyMailMakeButtons()
 	-- Button Creation
 		local position = 0;
